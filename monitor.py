@@ -155,7 +155,7 @@ def main(argv):
             log_message += line + "\r\n"
         sendmail(log_message)
     except:
-        append_log_info("Error sending mail")
+        append_log_info("Error sending mail", log_full_filename, log_file_path)
 
 
 def buildfitsfileslist(rootpath, ext):
