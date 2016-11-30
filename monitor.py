@@ -38,7 +38,7 @@ from fitsdbfinder import CheckFits
 
 fits_db_command = "srt_repository_insert {db_name} {filefitsfullpath} {table}"
 fits_db_command_psr = "srt_repository_insert_psr {db_name} {filefitsfullpath} {table}"
-fits_extentions = [".fits", ".rf"]  # the first one is managed by fits_db_command, remain by fits_db_command_psr
+fits_extentions = [".fits", ".rf", "sf", "cf"]  # the first one is managed by fits_db_command, remain by fits_db_command_psr
 transfer_enable = False
 skip_fits_data = True
 
